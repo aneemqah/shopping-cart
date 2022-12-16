@@ -9,7 +9,9 @@ function Store() {
       {/* md - show only 3 column */}
       <Row xs={1} md={3} className="g-4">
         {products.map((p, index) => (
-          <Col align="center">{p.title}</Col>
+          <Col align="center" key={index}>
+            {p.title}
+          </Col>
         ))}
       </Row>
     </>

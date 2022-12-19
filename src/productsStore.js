@@ -1,17 +1,17 @@
 const products = [
   {
     id: '1',
-    title: 'Bag',
+    title: 'iPad',
     price: 75.0
   },
   {
     id: '2',
-    title: 'Shoes',
+    title: 'Google Pixel 4a',
     price: 49.99
   },
   {
     id: '1',
-    title: 'Bag',
+    title: 'Camera',
     price: 50.0
   }
 ];
